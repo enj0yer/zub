@@ -1,0 +1,27 @@
+{
+    "name": "enj0yer/zub",
+    "description": "Zero dependency Url Builder",
+    "type": "library",
+    "license": "MIT",
+    "scripts": {
+        "test": "vendor/bin/phpunit tests/"
+    },
+    "autoload": {
+        "psr-4": {
+            "Enj0yer\\Zub\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "enj0yer",
+            "email": "kulagin2002ilya@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=9.5.10"
+    }
+}
