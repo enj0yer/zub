@@ -2,6 +2,7 @@
     "name": "enj0yer/zub",
     "description": "Zero dependency Url Builder",
     "type": "library",
+    "version": "1.0.1",
     "license": "MIT",
     "scripts": {
         "test": "vendor/bin/phpunit tests/"
