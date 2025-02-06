@@ -23,6 +23,10 @@ class UrlBuilderTest extends TestCase {
         $this->assertEquals("", UrlBuilder::new(...[])->get(), "result must be an empty string");
     }
 
+    public function testManyUrlParts() {
+        $this->assertEquals('https://mysite.org/api/v4/docs', UrlBuilder::new('https://mysite.org', 'api', 'v4', 'docs')->get(), 'trouble with many url parts');
+    }
+
     public function testUrlsWithoutParameters() {
         $cases = [
             [
